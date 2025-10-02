@@ -9,10 +9,6 @@ import { TbInvoice } from "react-icons/tb";
 import { LiaWalletSolid } from "react-icons/lia";
 import { IoMdSettings } from "react-icons/io";
 
-
-
-
-
 export default function Navbar() {
   const navBarLinks = [
     {
@@ -37,7 +33,7 @@ export default function Navbar() {
     },
     {
         pageName: "Settings",
-        pageLink: "/settings", 
+        pageLink: "#", 
         pageIcon: <IoMdSettings size={20} />
     },
   ];
