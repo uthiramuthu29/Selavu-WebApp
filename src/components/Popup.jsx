@@ -14,7 +14,7 @@ export default function Popup() {
     <div className="fixed inset-0 flex items-center justify-center bg-white/10 backdrop-blur-md bg-opacity-50 z-50">
       <div className="bg-white p-6 rounded-lg w-[90%] max-w-lg shadow-lg relative">
         <button
-          className="absolute top-2 right-2 text-gray-500 hover:text-gray-800"
+          className="absolute top-2 right-2 text-gray-500 hover:text-gray-800 cursor-pointer"
           onClick={() => setIsOpen(false)}
         >
           ✕
