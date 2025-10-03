@@ -1,6 +1,6 @@
 import { Link, NavLink } from "react-router-dom";
 
-import SelavuLogo from "../assets/img/Selavu-Logo.png"
+import SelavuLogo from "../assets/img/Selavu Logo Light.png"
 
 import { RiHome5Fill,RiLogoutCircleRLine  } from "react-icons/ri";
 import { MdHelpCenter } from "react-icons/md";
